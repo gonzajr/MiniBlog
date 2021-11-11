@@ -1,0 +1,404 @@
+
+/* PREPARADO POR ING. JUANCITO PEÑA */
+
+/* REGLA GLOBAL * PARA TODO */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* REGLA PARA EL FORMATO DEL BODY O CUERPO  */
+body{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20190827/pngtree-random-energy-wave-background-image_307670.jpg");
+}
+
+/* REGLA PARA EL FORMATO DEL CONTENEDOR PRINCIPAL  */
+.container{
+    width: 70%;
+    height: 100%;
+    margin:0px auto;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color:#FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* REGLA PARA EL FORMATO DEL HEADER O ENCABEZADO  */
+header{
+    color: white;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    line-height: 100px ;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    border-radius:  5px;
+  
+}
+
+
+/* REGLA PARA EL FORMATO DEL NAV O NAVEGACION O MENUS  */
+nav{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(122, 190, 246);
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a {
+text-decoration: none;
+}
+nav ul li a:hover {
+    color:white;
+    }
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    line-height:50% ;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* REGLA PARA EL FORMATO SECTION O LA PARTE DE CONTENIDO  */
+
+#contenido{
+    width: 70%;
+    height:100%;
+    background-color:GRAY;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+  
+}
+
+/* REGLA PARA EL FORMATO DEL TITULO H2 EN EL SECTION */
+#contenido h2{
+    margin-top: 25px;
+    font-size:20px;
+    text-align: center;
+    color: black;
+    
+}
+/* REGLA PARA EL FORMATO DEL ARTICLE O ARTICULOS O SECCIONES DE NOTICIAS 1  */
+
+.parrafo{
+    font-size: 25px;
+    text-align: justify;
+    color: black;
+    margin:5px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+p{
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+     margin: 25px, 1px, 25px ,1px;
+     padding: 25px;
+}
+
+.foto{
+    width: 70%;
+    height: auto;
+    background-color: whitesmoke;
+    margin-left: auto;
+   padding-right: auto;
+}
+.motivaciones{
+    text-shadow: 2px 2px 5px blueviolet;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* REGLA PARA EL FORMATO DEL ARTICLE O ARTICULOS O SECCIONES DE NOTICIAS 1  */
+.parrafo1{
+    font-size: 18px;
+    text-align: justify;
+      color: white;
+    background-color: #FFFFFF;
+    margin:10px;
+}
+
+/* REGLA PARA EL FORMATO DEL ARTICLE O ARTICULOS O SECCIONES DE NOTICIAS 1  */
+.parrafo2{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin:5px;
+}
+
+.descripcion{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+    color: white;
+    background-color: whitesmoke;
+    margin:10px;
+}
+
+img{
+    display:block;
+    width: 80%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+aside img {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    margin-left: -10PX;
+    margin-top: -70px;
+    width: 90%;
+    height: auto;
+    border-radius: 15PX;
+
+}
+
+
+/* REGLA PARA EL FORMATO ASIDE O SECCION DE PUBLICIDAD O NOTICIAS RELEVANTESS */
+aside{
+    width: 28%;
+    height: auto;
+    margin-top: 10px;
+    background-color:gray;
+    float: right;
+    
+}
+
+/* REGLA PARA EL FORMATO DEL H2 EN EL ASIDE */
+aside h2{
+    font-size:30px;
+    text-align: center;
+       color: white;
+
+}
+
+aside h4{
+    padding: 10px;
+    margin-bottom: 45px;
+    font-size:20px;
+    text-align: center;
+       color: black;
+       background-color: white;
+
+}
+aside h3{
+    font-size:20px;
+    text-align: center;
+       color: black;
+       background-color: white;
+       margin-bottom: 20px;
+
+}
+aside h3 a{
+   
+       text-decoration: none;
+
+}
+
+ aside h3:hover{
+    text-decoration: underline;
+    
+    }
+
+
+.aside{
+    background-color: transparent;
+}
+/* REGLA PARA LIMPIAR LO FLOTADO EL DOCUMENTO  */
+.clearfix{
+    clear: both;
+}
+
+/* REGLA PARA EL FORMATO DEL PIE DE PAGINA O FOOTER*/
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    line-height: 100px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+/* REGLA PARA EL FORMATO DEL PARRAFO DEL PIE DE PAGINA O FOOTER*/
+footer p{
+    color: white;
+    font-size:25px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.botonarriba img{
+	float: right;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+	   }
+
+       aside .foto{
+        margin-top: -70px;
+        background-color: transparent;
+        margin: 10px;
+        margin-left: 18px;
+           }
+
+           aside .motivaciones{
+            margin-left: -18px;
+               }
+    
+             article h2{
+                margin-top: 20px;
+                   }
+
+                   #contenido1{
+                    margin-top: 20px;
+                       }
+
+                       /* GALERIA DE FOTOS AJUSTES */
+                                            
+                      #GALERIA img{
+                       width: 380px;
+                       height: 300px;
+                       margin: 0px;
+                       border-radius: 20px;
+                                             
+                    }
+                    .primeraseccion div {
+                        margin-top: 15px;
+                        width: auto;
+                        }
+
+                   .segundaseccion div {
+                       margin-top: 25px;
+                        width: auto;
+                        
+                         }
+
+                             
+                                        /* Cursos AJUSTES */
+
+                                        #Cursos img{
+                                            width: 380px;
+                                            height: 300px;
+                                            margin: 0px;
+                                            border-radius: 5px;
+                                            padding-bottom: 80px;
+                                            border-color: black;
+                                            
+                                                                  
+                                         }
+                                         
+                                         .categoria{
+                                            background-color:gainsboro;
+                                            margin-top: 50px;
+                                            border-radius: 10px;
+                                                                                                                                                        
+                                         }
+
+                                         .categorias1 img{
+                                           
+                                            border-radius: 10%;
+                                                                                                                                                        
+                                         }
+                                         
+                                         
+                                         .explora h2{
+                                            margin-top: 10px;
+                                                                                                                                                      
+                                         }
+                                         .explora h1{
+                                            margin-left: 30px;
+                                            font-size: 22px;
+                                                                                                                                                      
+                                         }
+                                        
+                                         
+                                         
+                                         .titulocurso1 h3{
+                                            
+                                            text-align: left;
+                                            font-size: 25px;
+                                            color: rgb(97, 96, 92);
+                                        
+                                                                                                                          
+                                         }
+                                         .titulocurso2 h3{
+                                       
+                                            text-align: center;
+                                            font-size: 25px;
+                                            color: rgb(97, 96, 92);
+                                        
+                                                                                                       
+                                         }
+                                         .titulocurso3 h3{
+                                           
+                                            text-align: right;
+                                            font-size: 25px;
+                                            color: rgb(97, 96, 92);
+                                        
+                                                                                                        
+                                         }
+
+                                         .titulocurso1{
+                                            float: left;
+                                            margin-left: 20px;
+                                            
+                                        
+                                                                                                       
+                                         }
+                                         .titulocurso2{
+                                            float: center;
+                                            margin-right: 250px;
+                                            
+                                        
+                                                                                                       
+                                         }
+                                         .titulocurso3{
+                                            float: right;
+                                            margin-right: 20px;
+                                            margin-top:-30px;
+                                        
+                                                                                                       
+                                         }
+
+                                         article h2{
+                                            margin-bottom: 40px;
+                                            
+                                        
+                                                                                                       
+                                         }
+
+                                         
+                                         
+                                         
+
+
+                                  
